@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carzilla | Fashion Store V.2</title>
+    <link rel="shortcut icon" href="favicon.ico" type="ico">
+    <script src="https://kit.fontawesome.com/bb674ddf93.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bb674ddf93.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fashion.css">
+</head>
+<body>
+    <div class="d-flex flex-row bd-highlight mb-3 bg-dark justify-content-evenly align-items-center">
+        <div class="p-2 bd-highlight"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset text-danger" viewBox="0 0 16 16">
+            <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+          </svg> <span class="text-muted">Support(00) 33 169 7720</span></div>
+        <div class="p-2 bd-highlight flex-grow-1">            
+         
+          <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p class="text-muted" align="center">Free shipping for order over $200</p>
+              </div>
+              <div class="carousel-item">
+                <p class="text-muted" align="center">We return money within 30 days</p>
+              </div>
+              <div class="carousel-item">
+                <p class="text-muted" align="center">Friendly 24/7 customer support</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="left:270px;
+            height: 30px;
+            width: 20px;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" style="right:270px;
+            height: 30px;
+            width: 20px;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="p-2 bd-highlight"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt text-danger" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg> <span class="text-muted">Order Tracking</span></div>
+        <div class="p-2 bd-highlight">
+            <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="en.png" height="30" width="30"><span class="text-muted">Eng / $</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#"><select class="form-select" aria-label="Default select example">
+                    <option selected>$ USD</option>
+                    <option value="1">€ EUR</option>
+                    <option value="2">£ UKP</option>
+                    <option value="3">¥ JPY</option>
+                  </select></a></li>
+                  <li><a class="dropdown-item" href="#"><img src="fr.png" height="30" width="30"> Francais</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="de.png" height="30" width="30"> Deutsch</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="it.png" height="30" width="30"> Italiano</a></li>
+                </ul>
+              </div>
+        </div>
+      </div>
+      <!-- Navbar -->
+      <div class="container">
+        <div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly">
+            <div class="p-4 bd-highlight"><img src="logo-dark.png"></div>
+            <div class="p-4 bd-highlight">
+                <input class="form-control me-2" type="search" placeholder="Search for products" aria-label="Search">
+            </div>
+            <div class="p-4 bd-highlight"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-suit-heart text-muted" viewBox="0 0 16 16">
+              <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+            </svg></a></div>
+            <div class="p-2 bd-highlight">
+              <!-- Button trigger modal -->
+      <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person" viewBox="0 0 14 14">
+          <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+        </svg><span class="text-muted" style="font-size: 12px;">Hello, Sign in</span><h6 style="line-height:1px ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Account</h6></div>
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active text-danger" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                  </svg>Sign in</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-danger" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 14 14">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                  </svg>Sign up</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <form><br>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="johndoe@example.com">
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="pwd" onclick="passwd()">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <div class="row">
+                        <div class="col-8">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+                    <div class="col-4">
+                      <a href="#" class="text-danger">Forgot password</a></div>
+                    </div></div>
+                    <div class="row">
+                    <button type="submit" class="btn btn-danger d-grid gap-2 text-white">Sign in</button></div>
+                  </form>  
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <form><br>
+                    <div class="mb-3">
+                      <label for="exampleInputText1" class="form-label">Full name</label>
+                      <input type="text" class="form-control" id="exampleInputText1" aria-describedby="emailHelp" placeholder="John Doe">
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="johndoe@example.com">
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="pwd" onclick="passwd()">
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label for="pwd" class="form-label">Confirm password</label>
+                      <input type="password" class="form-control" id="pwd" onclick="passwd()">
+                    </div>
+                    <div class="row">
+                      <button type="submit" class="btn btn-danger d-grid gap-2 text-white">Sign up</button></div>
+                    </form>  
+                </div>               
+              </div>
+            </div>           
+          </div>
+        </div>
+      </div>              
+            <div class="p-2 bd-highlight dropdown">              
+                <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg><sup></sup><span class="text-muted" style="font-size: 12px;">My cart</span>
+                </button>
+                <ul class="dropdown-menu cartitems" aria-labelledby="dropdownMenuButton1">
+                  
+                  
+                </ul> 
+                <div class="subtotal ms-5">
+                  
+                </div>            
+              </div>            
+          </div>
+      </div>
+      <!-- Departments -->
+      <div class="container">
+        <div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly">
+          <div class="p-2 bd-highlight">
+            <div class="dropdown h">
+              <button class="btn btn-white text-muted dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid" viewBox="0 0 16 16">
+                  <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                </svg> Departments
+              </button>
+              <div class="dropdown-menu hide" aria-labelledby="dropdownMenuButton1">
+                <div class="d-flex flex-row bd-highlight mb-3">
+                  <div class="p-2 bd-highlight">
+                     <img src="01(1).jpg" class="card-img-top" alt="...">
+                     <h5 class="card-title">Clothing</h5>
+                     <a href="#" class="text-muted dropdown-item">Women's Clothing</a>
+                     <a href="#" class="text-muted dropdown-item">Men's Clothing</a>
+                     <a href="#" class="text-muted dropdown-item">Kid's Clothing</a>
+                   
+                  </div>
+                  <div class="p-2 bd-highlight">
+                    <img src="02(1).jpg" class="card-img-top" alt="..." height="100">
+                    <h5 class="card-title">Shoes</h5>
+                      <a href="#" class="text-muted dropdown-item">Women's Shoes</a>
+                     <a href="#" class="text-muted dropdown-item">Men's Shoes</a>
+                     <a href="#" class="text-muted dropdown-item">Kid's Shoes</a>
+                  </div>
+                  <div class="p-2 bd-highlight">
+                    <img src="03(1).jpg" class="card-img-top" alt="..." height="100" width="200">
+                    <h5 class="card-title">Gadgets</h5>
+                      <a href="#" class="text-muted dropdown-item">Smartphones & Tablets</a>
+                     <a href="#" class="text-muted dropdown-item">Wearable Gadgets</a>
+                     <a href="#" class="text-muted dropdown-item">E-book readers</a>
+                  </div>
+                </div>
+                <div class="d-flex flex-row bd-highlight">
+                  <div class="p-2 bd-highlight">
+                    <img src="04(1).jpg" class="card-img-top" alt="..." height="100" width="100">
+                    <h5 class="card-title">Furniture & Decor</h5>
+                    <a href="#" class="text-muted dropdown-item">Home Furniture</a>
+                    <a href="#" class="text-muted dropdown-item">Office Furniture</a>
+                    <a href="#" class="text-muted dropdown-item">Lighting & Decoration</a>
+                   
+                  </div>
+                  <div class="p-2 bd-highlight">
+                    <img src="05.jpg" class="card-img-top" alt="..." height="100" width="100">
+                    <h5 class="card-title">Accessories</h5>
+                    <a href="#" class="text-muted dropdown-item">Hats</a>
+                   <a href="#" class="text-muted dropdown-item">Sunglasses</a>
+                   <a href="#" class="text-muted dropdown-item">Bags</a>
+                  </div>
+                  <div class="p-2 bd-highlight">
+                    <img src="06.jpg" class="card-img-top" alt="..." height="100">
+                    <h5 class="card-title">Entertainment</h5>
+                      <a href="#" class="text-muted dropdown-item">Kid's Toys</a>
+                     <a href="#" class="text-muted dropdown-item">Video Games</a>
+                     <a href="#" class="text-muted dropdown-item">Outdoor/Camping</a>
+                  </div>
+                </div>
+              </div>
+            </div>           
+        </div>
+          <div class="p-2 bd-highlight h">
+            <div class="dropdown h">
+              <button class="btn btn-white text-muted" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </button>
+              <ul class="dropdown-menu hide" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Home Page 1</a></li>
+                <li><a class="dropdown-item" href="#">Home Page 2</a></li>
+                <li><a class="dropdown-item" href="#">Home Page 3</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="p-2 bd-highlight">
+            <div class="dropdown h">
+              <button class="btn btn-white text-muted" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Shop
+              </button>
+              <ul class="dropdown-menu hide" aria-labelledby="dropdownMenuButton1">
+                <div class="d-flex flex-row bd-highlight">
+                  <div class="p-2 bd-highlight">
+                    <h6>Shop Layouts</h6>
+                    <a href="#" class="text-muted dropdown-item">Shop Grid-Left Slidebar</a>
+                    <a href="#" class="text-muted dropdown-item">Shop Grid-Right Slidebar</a>
+                    <a href="#" class="text-muted dropdown-item">Shop Grid-Filters on Top</a>
+                    <a href="#" class="text-muted dropdown-item">Shop List-Left Slidebar</a>
+                    <a href="#" class="text-muted dropdown-item">Shop List-Right Slidebar</a> 
+                    <h6>Marketplace</h6>
+                    <a href="#" class="text-muted dropdown-item">Category page</a>
+                    <a href="#" class="text-muted dropdown-item">Single item page</a>
+                    <a href="#" class="text-muted dropdown-item">Vendor page</a>
+                    <a href="#" class="text-muted dropdown-item">Cart</a>
+                    <a href="#" class="text-muted dropdown-item">Checkout</a>
+                    <h6>Grocery Store</h6>
+                    <a href="#" class="text-muted dropdown-item">Product Catalog</a>
+                    <a href="#" class="text-muted dropdown-item">Single Product page</a>
+                    <a href="#" class="text-muted dropdown-item">Checkout</a>                             
+                  </div>
+                  <div class="p-2 bd-highlight">
+                    <h6>Food Delivery</h6>
+                    <a href="#" class="text-muted dropdown-item">Category page</a>
+                    <a href="#" class="text-muted dropdown-item">Single item (Restaurant)</a>
+                    <a href="#" class="text-muted dropdown-item">Cart (Your order)</a>
+                    <a href="#" class="text-muted dropdown-item">Checkout (Address & Payment)</a>
+                    <h6>NFT Marketplace<span class="bg-danger text-white">New</span></h6>
+                    <a href="#" class="text-muted dropdown-item">Catalog V.1</a>
+                    <a href="#" class="text-muted dropdown-item">Catalog V.2</a>
+                    <a href="#" class="text-muted dropdown-item">Single item- Auction live</a>
+                    <a href="#" class="text-muted dropdown-item">Single item- Auction ended</a>
+                    <a href="#" class="text-muted dropdown-item">Single item- Buy Now</a>
+                    <a href="#" class="text-muted dropdown-item">Vendor Page</a>
+                    <a href="#" class="text-muted dropdown-item">Connect Walllet</a>
+                    <a href="#" class="text-muted dropdown-item">Create New item</a>
+                  </div>
+                  <div class="p-2 bd-highlight">
+                    <h6>Shop Pages</h6>
+                    <a href="#" class="text-muted dropdown-item">Shop Categories</a>
+                    <a href="#" class="text-muted dropdown-item">Product page- V.1</a>
+                    <a href="#" class="text-muted dropdown-item">Product page- V.2</a>
+                    <a href="#" class="text-muted dropdown-item">Cart</a>
+                    <a href="#" class="text-muted dropdown-item">Checkout- Details</a>
+                    <a href="#" class="text-muted dropdown-item">Checkout- Shipping</a>
+                    <a href="#" class="text-muted dropdown-item">Checkout- Payment</a>
+                    <a href="#" class="text-muted dropdown-item">Checkout- Review</a>
+                    <a href="#" class="text-muted dropdown-item">Checkout- Complete</a>
+                    <a href="#" class="text-muted dropdown-item">Order Tracking</a>
+                    <a href="#" class="text-muted dropdown-item">Product Comparison</a>
+                  </div>
+                </div>             
+              </ul>
+            </div>           
+          </div>
+          <div class="p-2 bd-highlight">
+            <div class="dropdown h">
+              <button class="btn btn-white text-muted" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Account
+              </button>
+              <ul class="dropdown-menu hide" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Shop User Account</a></li>
+                <li><a class="dropdown-item" href="#">Vendor Dashboard</a></li>
+                <li><a class="dropdown-item" href="#">NFT Marketplace<span class="bg-danger text-white">New</span></a></li>
+                <li><a class="dropdown-item" href="#">Sign In/ Sign Up</a></li>
+                <li><a class="dropdown-item" href="#">Password Recovery</a></li>                
+              </ul>
+            </div>           
+          </div>
+          <div class="p-2 bd-highlight">
+            <div class="dropdown h">
+              <button class="btn btn-white text-muted" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </button>
+              <ul class="dropdown-menu hide" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Navbar Variants</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Contacts</a></li>
+                <li><a class="dropdown-item" href="#">Help Center</a></li>
+                <li><a class="dropdown-item" href="#">404 Not Found</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#">Sticky Footer Demo</a></li>
+              </ul>
+            </div>            
+          </div>
+          <div class="p-2 bd-highlight">
+            <div class="dropdown h">
+              <button class="btn btn-white text-muted" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </button>
+              <ul class="dropdown-menu hide" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Blog List Layouts</a></li>
+                <li><a class="dropdown-item" href="#">Blog Grid Layouts</a></li>
+                <li><a class="dropdown-item" href="#">Single Post Layouts</a></li>
+              </ul>
+            </div>
+            
+          </div>
+          <div class="p-2 bd-highlight">
+            <div class="dropdown h">
+              <button class="btn btn-white text-muted" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Docs/Components
+              </button>
+              <ul class="dropdown-menu hide" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-files" viewBox="0 0 16 16">
+                  <path d="M13 0H6a2 2 0 0 0-2 2 2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 13V4a2 2 0 0 0-2-2H5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zM3 4a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4z"/>
+                </svg> <span>Documentation <p class="text-muted" style="font-size:12px;">Kick Start Customization</p></span></a></li>
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-hdd-stack" viewBox="0 0 16 16">
+                  <path d="M14 10a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h12zM2 9a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2H2z"/>
+                  <path d="M5 11.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM14 3a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+                  <path d="M5 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                </svg><span> Components <span class="bg-primary text-white">40+</span> <p class="text-muted" style="font-size:12px;">Faster Page Building</p></span></a></li>
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                </svg><span> Changelog <span class="bg-info text-white">V2.5.0</span> <p class="text-muted" style="font-size:12px;">Regular Updates</p></span></a></li>
+                <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-life-preserver" viewBox="0 0 16 16">
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm6.43-5.228a7.025 7.025 0 0 1-3.658 3.658l-1.115-2.788a4.015 4.015 0 0 0 1.985-1.985l2.788 1.115zM5.228 14.43a7.025 7.025 0 0 1-3.658-3.658l2.788-1.115a4.015 4.015 0 0 0 1.985 1.985L5.228 14.43zm9.202-9.202-2.788 1.115a4.015 4.015 0 0 0-1.985-1.985l1.115-2.788a7.025 7.025 0 0 1 3.658 3.658zm-8.087-.87a4.015 4.015 0 0 0-1.985 1.985L1.57 5.228A7.025 7.025 0 0 1 5.228 1.57l1.115 2.788zM8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg> <span>Support <p class="text-muted" style="font-size:12px;">support@createx.studio</p></span></a></li>
+              </ul>
+            </div>            
+          </div>
+        </div>
+      </div>
+      <!-- Carousel -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">            
+                <div class="d-flex flex-row bd-highlight mb-3 align-items-center" style="background-color:#F5B1B0;">
+                    <div class="p-2 bd-highlight text-white ms-5"><h3>Hurry up! Limited Time Offer</h3>
+                        <h2>Women Sportswear Sale</h2>
+                        <h5>Sneakers, Keds, Sweatshirts, Hoodies & Much more...</h5>
+                        <button type="button" class="btn btn-danger">Shop Now &gt;</button></div>
+                    <div class="p-2 bd-highlight"><img src="02(2).jpg" class="img-fluid float-end"></div>                  
+                  </div>
+        </div>
+          <div class="carousel-item">
+            <div class="d-flex flex-row bd-highlight mb-3 align-items-center" style="background-color:#EBA170;">
+              <div class="p-2 bd-highlight text-white ms-5"><h3>Complete Your look with</h3>
+                  <h2>New Men's Accessories</h2>
+                  <h5>Hats & Caps, Sunglasses, Bags & Much more...</h5>
+                  <button type="button" class="btn btn-danger">Shop Now &gt;</button></div>
+              <div class="p-2 bd-highlight"><img src="03(2).jpg" class="img-fluid float-end"></div>                  </div>
+
+          
+        </div>
+         
+          <div class="carousel-item">
+            <div class="d-flex flex-row bd-highlight mb-3 align-items-center" style="background-color: #3AAFD2;">
+              <div class="p-2 bd-highlight text-white ms-5"><h3>Has Just Arrived!</h3>
+                  <h2>Huge Summer Collection</h2>
+                  <h5>Swimwear, Tops, Shorts, Sunglasses & Much more...</h5>
+                  <button type="button" class="btn btn-danger">Shop Now &gt;</button></div>
+              <div class="p-2 bd-highlight"><img src="01(2).jpg" class="img-fluid float-end"></div>                  </div>
+       
+          
+        </div> 
+          </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Trending Products -->
+      <div class="container">
+        <h1 style="text-align: center;color: burlywood;font-family: 'Times New Roman', Times, serif;">Trending Products</h1>
+        <div class="row g-4 row-cols-md-4 row-cols-4 elements">
+            
+          </div><br>
+    </div>
+
+       <!-- Shop by brand -->
+       <div class="container">
+        <h2 style="text-align: center;" class="mb-4">Shop By Brand</h2>
+        <div class="row mb-4">
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="01.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="02.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="03.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="04.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+       </div>
+ 
+       <div class="row mb-4">
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="05.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="06.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="07.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="08.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+       </div>
+ 
+       <div class="row mb-4">
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="09.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="10.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="11.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+         <div class="col-sm-3">
+           <div class="card shadow">
+             <div class="card-body">
+               <a href="#"><img src="12.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
+             </div>
+           </div>
+         </div>
+       </div>        
+       </div>
+       <!-- Bestsellers -->
+       <div class="container">
+       <div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly">
+         <div class="p-2 bd-highlight">
+           <h5>Bestsellers</h5>
+           <table>
+             <tr class="border-bottom"><td><a href="#" class="d-inline"><img src="01.jpg"></a></td><td><a href="#">Women Colorblock Sneakers<br>$150.00</a></td></tr>
+             <tr class="border-bottom"><td><a href="#" class="d-inline"><img src="02.jpg"></a></td><td><a href="#">TH Jeans City Backpack<br>$79.50</a></td></tr>
+             <tr class="border-bottom"><td><a href="#" class="d-inline"><img src="03.jpg"></a></td><td><a href="#">3-Color Sun Stash Hat<br>$22.50</a></td></tr>
+             <tr><td><a href="#" class="d-inline"><img src="04.jpg"></a></td><td><a href="#">Cotton Polo Regular Fit<br>$9.00</a></td></tr>
+           </table>
+           ...<br>
+           <a href="#" class="text-danger">View More &gt;</a>        
+         </div>
+         <div class="p-2 bd-highlight">
+           <h5>New arrivals</h5>
+           <table>
+             <tr class="border-bottom"><td><a href="#" class="d-inline"><img src="02(4).jpg"></a></td><td><a href="#">Cap with Appliqué<br>$15.99</a></td></tr>
+             <tr class="border-bottom"><td><a href="#" class="d-inline"><img src="01(4).jpg"></a></td><td><a href="#">Girl's T-shirt with Motif<br>$14.50</a></td></tr>
+             <tr class="border-bottom"><td><a href="#" class="d-inline"><img src="03(4).jpg"></a></td><td><a href="#">Leather Platform Sandals<br>$78.00</a></td></tr>
+             <tr><td><a href="#" class="d-inline"><img src="04(3).jpg"></a></td><td><a href="#">Regular Fit Cotton Shirt<br>$17.99</a></td></tr>
+           </table>
+           ...<br>
+           <a href="#" class="text-danger">View More &gt;</a> </div>
+         <div class="p-2 bd-highlight">
+           <h5></h5>
+           <a href="#"><img src="v-banner.jpg"></a>
+         </div>
+       </div>
+     </div>
+     <!-- Blog And Instagram -->
+     <div class="row">
+       <div class="col-6 align-middle p-5" style="background-color: lightpink;text-align: center;">
+         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pencil-square text-danger" viewBox="0 0 16 16">
+           <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+           <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+         </svg>
+         <h5>Read the Blog</h5>
+         <p class="text-muted">Latest Store, Fashion, News and Trends</p></a>
+       </div>
+       <div class="col-6 align-middle p-5" style="background-color: lightblue; text-align: center;">
+         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram text-primary" viewBox="0 0 16 16">
+           <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+         </svg>
+         <h5>Follow on Instagram</h5>
+         <p class="text-muted"># Shop with Cartzilla</p></a>
+       </div>
+     </div><br>
+     <!-- Footer1 -->
+     <div class="d-flex flex-row bd-highlight justify-content-evenly bg-dark text-white">
+       <div class="p-2 bd-highlight">
+         <h5>Shop Departments</h5>
+         <a href="#" class="text-muted">Sneakers & Athletic</a><br>
+         <a href="#" class="text-muted">Athletic Apparel</a><br>
+         <a href="#" class="text-muted">Sandals</a><br>
+         <a href="#" class="text-muted">Jeans</a><br>
+         <a href="#" class="text-muted">Shirts & Tops</a><br>
+         <a href="#" class="text-muted">Shorts</a><br>
+         <a href="#" class="text-muted">T-shirts</a><br>
+         <a href="#" class="text-muted">Swimwear</a><br>
+         <a href="#" class="text-muted">Clogs & Mules</a><br>
+         <a href="#" class="text-muted">Bags & Wallets</a><br>
+         <a href="#" class="text-muted">Accessories</a><br>
+         <a href="#" class="text-muted">Sunglasses & Eyewear</a><br>
+         <a href="#" class="text-muted">Watches</a><br>
+       </div>
+       <div class="p-2 bd-highlight">
+         <h5>Account & Shipping Info</h5>
+         <a href="#" class="text-muted">Your Account</a><br>
+         <a href="#" class="text-muted">Shipping rates & policies</a><br>
+         <a href="#" class="text-muted">Refunds & replacements</a><br>
+         <a href="#" class="text-muted">Order Tracking</a><br>
+         <a href="#" class="text-muted">Delivery Info</a><br>
+         <a href="#" class="text-muted">Taxes & fees</a><br><br>
+         <h5>About Us</h5>
+         <a href="#" class="text-muted">About Company</a><br>
+         <a href="#" class="text-muted">Our Team</a><br>
+         <a href="#" class="text-muted">Careers</a><br>
+         <a href="#" class="text-muted">News</a><br>        
+       </div>
+       <div class="p-2 bd-highlight mb-3">
+       <h5>Stay informed</h5>
+       <div class="input-group mb-3">
+         <input type="email" class="form-control" placeholder="&#xf0e0; Your email" aria-label="Recipient's username" aria-describedby="basic-addon2" style="font-family: Arial,FontAwesome;">
+         <a href="#"><span class="input-group-text bg-danger text-white" id="basic-addon2">Subscribe*</span></a>
+       </div>
+       <p class="text-muted mb-3">*Subscribe to our newsletter to receive early discount offers,<br> updates and new products info.</p>
+       <h5 class="mb-3">Download our App</h5>
+       <img src="AppStore (1).png" class="img-fluid">
+       <img src="GooglePlay.png" class="img-fluid">
+       </div>
+     </div>
+     <!-- Footer 2 -->
+     <div class="row bg-dark text-white border-bottom">
+       <div class="col-3 p-4">
+         <table>
+           <tr><td><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-rocket-takeoff text-danger" viewBox="0 0 16 16">
+             <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z"/>
+             <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z"/>
+             <path d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
+           </svg> </td><td><h5>Fast and free delivery</h5>
+             <p class="text-muted">Free delivery for all orders over $200</p>
+             </td></tr>
+         </table>       
+       </div>
+       <div class="col-3 p-4">
+         <table>
+           <tr><td><h1 class="text-danger">$</h1></td><td><h5>Money back guarantee</h5>
+             <p class="text-muted">We return money within 30 days</p>
+             </td></tr>
+         </table>       
+       </div>
+       <div class="col-3 p-4">
+         <table>
+           <tr><td><i class="fa-solid fa-headset text-danger" style="font-size: 30px;"></i> </td><td><h5>24/7 customer support</h5>
+             <p class="text-muted">Friendly 24/7 customer support</p>
+             </td></tr>
+         </table>       
+       </div>
+       <div class="col-3 p-4">
+         <table>
+           <tr><td><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-credit-card-2-back text-danger" viewBox="0 0 16 16">
+             <path d="M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1z"/>
+             <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1z"/>
+           </svg> </td><td><h5>Secure online payment</h5>
+             <p class="text-muted">We possess SSL / Secure сertificate</p>
+             </td></tr>
+         </table>       
+       </div>
+     </div>
+     <!-- Footer 3 -->
+     <div class="d-flex flex-row mb-3 bg-dark text-white justify-content-evenly">
+       <div class="p-2 flex-grow-1">
+         <img src="footer-logo-light.png" class="mb-4">
+         <div class="dropdown d-inline">
+           <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             <img src="en.png" height="30" width="30"><span class="text-muted">Eng / $</span>
+           </button>
+           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+             <li><a class="dropdown-item" href="#"><select class="form-select" aria-label="Default select example">
+               <option selected>$ USD</option>
+               <option value="1">€ EUR</option>
+               <option value="2">£ UKP</option>
+               <option value="3">¥ JPY</option>
+             </select></a></li>
+             <li><a class="dropdown-item" href="#"><img src="fr.png" height="30" width="30"> Francais</a></li>
+             <li><a class="dropdown-item" href="#"><img src="de.png" height="30" width="30"> Deutsch</a></li>
+             <li><a class="dropdown-item" href="#"><img src="it.png" height="30" width="30"> Italiano</a></li>
+           </ul>
+         </div><br>
+         <a href="#" class="text-muted">Outlets</a>
+         <a href="#" class="text-muted ms-5">Affiliates</a>
+         <a href="#" class="text-muted ms-5">Support</a>
+         <a href="#" class="text-muted ms-5">Privacy</a>
+         <a href="#" class="text-muted ms-5">Terms of Use</a>
+         <p class="mt-5 text-muted">&copy;All rights reserved. Made by Createx Studio</p>
+       </div>
+       <div class="p-4"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter text-muted" viewBox="0 0 16 16">
+         <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+       </svg> 
+       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook text-muted ms-4" viewBox="0 0 16 16">
+         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+       </svg>
+       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram text-muted ms-4" viewBox="0 0 16 16">
+         <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+       </svg>
+       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pinterest text-muted ms-4" viewBox="0 0 16 16">
+         <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+       </svg>
+       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-youtube text-muted ms-4" viewBox="0 0 16 16">
+         <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+       </svg><br>
+       <img src="cards-alt.png" class="mt-5 img-fluid float-end" height="200" width="200">
+     </div>      
+     </div>
+ </body>
+ </html>
+ <script src="Product.js"></script>
+ <script>
+   function passwd() {
+   var x = document.getElementById("pwd");
+   if (x.type === "password") 
+   {
+     x.type = "text";
+   } 
+   else 
+   {
+     x.type = "password";
+   }
+ }
+ </script>

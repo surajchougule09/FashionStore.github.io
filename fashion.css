@@ -1,0 +1,26 @@
+
+input[type=search]
+{
+    width: 500px;
+    background-image: url('C:/New folder/Fashion Store v.2_files/Fashion Store v.2_files.jfif');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+a:link ,a:visited ,a:active
+{
+    text-decoration: none;
+    color: black;
+}
+.hide
+{
+    display: none;
+
+}
+.dep:hover>.hide
+{
+    display: block;
+}
+.headings
+{
+    margin-top: auto;
+}
