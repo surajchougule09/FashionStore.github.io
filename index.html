@@ -1,1092 +1,1149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="fashion.css">
-    <title>Document</title>
+   
+  
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <title>Kalapi Store</title>
+    
+
+    <link rel="shortcut icon" href="assets/images/kalapi new.png" type="image/png">
+
+    <!--Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!-- Animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    
+    <!-- Magnific Popup css -->
+     <link rel="stylesheet" href="assets/css/magnific-popup.css"> 
+    
+    <!-- Slick css -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    
+    <!-- Line Icons css -->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+    
+    <!-- Default css -->
+    <link rel="stylesheet" href="assets/css/default.css">
+    
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+  
+  
 </head>
+
 <body>
-    <div class="d-flex flex-row bd-highlight mb-3 bg-dark justify-content-evenly align-items-center">
-        <div class="p-2 bd-highlight "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset text-danger " viewBox="0 0 16 16">
-            <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
-          </svg><span class="text-muted">Support(00) 33 169 7722</span>
-        </div>
-        <div class="p-2 bd-highlight flex-grow-1"><div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <p class="text-muted" align="center">Free shipping for order over $200</p>
-              </div>
-              <div class="carousel-item">
-                <p class="text-muted"align="center">We return money within 30 days</p>
-              </div>
-              <div class="carousel-item">
-                <p class="text-muted"align="center">Friendly 24/7 customer Support</p>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="left: 270px;height: 30px;width: 20px;">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden" >Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"style=" right: 270px;height: 30px;width: 20px;">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden" >Next</span>
-            </button>
-          </div>
-        </div>
-
-        <div class="p-2 bd-highlight"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt text-danger" viewBox="0 0 16 16">
-            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-          </svg><span class="text-muted">Order Tracking</span>
-        </div>
-
-        <div class="p-2 bd-highlight"><div class="dropdown">
-            <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="images/en.png" height="30px" width="30px">
-              <span class="text-muted">Eng / $</span>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#"><select class="form-select" aria-label="Default select example">
-                        <option selected>$ USD</option>
-                        <option value="1">€ EUR</option>
-                        <option value="2">£ UKP</option>
-                        <option value="3">¥ JPY</option>
-                        </select>
-                    </a>
-                </li>
-              <li><a class="dropdown-item" href="#"><img src="images/fr.png" height="30px" width="30px"><span>Francais</span></a></li>
-              <li><a class="dropdown-item" href="#"><img src="images/de.png" height="30px" width="30px"><span>Deutsch</span></a></li>
-              <li><a class="dropdown-item" href="#"><img src="images/it.png" height="30px" width="30px"><span>Italiano</span></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+   
     
-      <!-- Navbar -->
+    <!-- HEADER PART START -->
+    
+    <header class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo1_1_150x50.jpg" alt="Logo">
+                        </a> <!-- Logo -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="bar-icon"></span>
+                            <span class="bar-icon"></span>
+                            <span class="bar-icon"></span>
+                        </button>
 
-      <div class="container">
-        <div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly sticky-top">
-            <div class="p-4 bd-highlight"><img src="images/logo-dark.png" > 
-            </div>
-            <div class="p-4 bd-highlight">
-                <input class="form-control me-2" type="search" placeholder="Search For Products" aria-label="Search">
-            </div>
-            <div class="p-4 bd-highlight"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
-              <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
-            </svg></a></div>
-
-            <div class="p-2 bd-highlight"><!-- Button trigger modal -->
-              <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
-                </svg><span class="text-muted" style="font-size: 12px;">Hello,Sign in</span>
-                <h6 style="line-height: 1px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Account</h6>
-              </button>
-            </div>
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Log in</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-
-                      <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lock text-danger" viewBox="0 0 16 16">
-                            <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 5.996V14H3s-1 0-1-1 1-4 6-4c.564 0 1.077.038 1.544.107a4.524 4.524 0 0 0-.803.918A10.46 10.46 0 0 0 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h5ZM9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"/>
-                          </svg>Sign in</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-add text-danger" viewBox="0 0 16 16">
-                            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
-                            <path d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"/>
-                          </svg>Sign up</button>
-                        </li>
-                        
-                      </ul>
-                      <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                          <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="johndo@gmail.com">
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="pwd" placeholder=""onclick="password()">
-                          </div>
-                       
-
-                      <div class="mb-3 form-check">
-                        <div class="row">
-                          <div class="col-8">
-                            <input class="form-check-input" type="checkbox" value="" id="exampleCheck1">
-                        <label class="form-check-label" for="flexCheckChecked">Remember me </label>
-                          </div>
-                          <div class="col-4">
-                            <a href="#" class="text-danger">Frorget Password</a>
-                          </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul id="nav" class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a data-scroll-nav="0" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a data-scroll-nav="0" href="#product">Products</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a data-scroll-nav="0" href="#showcase">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a data-scroll-nav="0" href="#team">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a data-scroll-nav="0" href="#contact">Contact</a>
+                                </li>
+                            </ul> <!-- navbar nav -->
                         </div>
-                      </div>
-                      <div class="row">
-                        <button type="submit" class="btn btn-danger d-grid gap-2 text-green">Sign in</button>
-                        </div>
-                       </div>
-
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                          <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="john Doe">
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="johndoe@gmail.com">
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="pwd" placeholder=""onclick="password()">
-                          </div>
-                          <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Confirm password</label>
-                            <input type="password" class="form-control" id="pwd" placeholder=""onclick="password()">
-                          </div>
-                          <div class="row">
-                            <button type="submit" class="btn btn-danger d-grid gap-2 text-white">Sign up</button>
+                    </nav> <!-- navbar -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    
+    <!-- HEADER PART ENDS -->
+   
+    <!-- SLIDER PART START  -->
+    
+    <section id="home" class="slider-area pt-100">
+        <div class="container-fluid position-relative">
+            <div class="slider-active">
+                <div class="single-slider">
+                    <div class="slider-bg">
+                        <div class="row no-gutters align-items-center ">
+                            <div class="col-lg-4 col-md-5">
+                                <div class="slider-product-image d-none d-md-block">
+                                    <img src="assets/images/slider/image1.jpg" alt="Slider">
+                                    <div class="slider-discount-tag">
+                                        <p>-50% <br> OFF</p>
+                                    </div>
+                                </div> <!-- slider product image -->
                             </div>
+                            <div class="col-lg-8 col-md-7">
+                                <div class="slider-product-content">
+                                    <h1 class="slider-title mb-10" data-animation="" data-delay="0.3s"><span>College</span> and <span>Travel</span></h1>
+                                    <p class="mb-25" data-animation="" data-delay="0.3s"></p>
+                                    <a class="main-btn" href="#b" data-animation="" data-delay="1.0s">Explore More <i class="lni-chevron-right"></i></a>
+                                </div> <!-- slider product content -->
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- container -->
+                </div> <!-- single slider -->
+
+                <div class="single-slider">
+                        <div class="slider-bg">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-lg-4 col-md-5">
+                                    <div class="slider-product-image d-none d-md-block">
+                                        <img src="assets/images/slider/s4.jpg" alt="Slider">
+                                        <div class="slider-discount-tag">
+                                            <p>-20% <br> OFF</p>
+                                        </div>
+                                    </div> <!-- slider product image -->
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="slider-product-content">
+                                        <h1 class="slider-title mb-10" data-animation="" data-delay="0.3s"><span></span> Sale! is <span>Here</span></h1>
+                                        <p class="mb-25" data-animation="" data-delay="0.3s"><br></p>
+                                        <a class="main-btn" href="#" data-animation="" data-delay="1.0s">Explore More <i class="lni-chevron-right"></i></a>
+                                    </div> <!-- slider product content -->
+                                </div>
+                            </div> <!-- row -->
+                        </div> <!-- container -->
+                </div> <!-- single slider -->
+
+                <div class="single-slider">
+                        <div class="slider-bg">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-lg-4 col-md-5">
+                                    <div class="slider-product-image d-none d-md-block">
+                                        <img src="assets/images/slider/s3.jpg" alt="Slider">
+                                        <div class="slider-discount-tag">
+                                            <p>-10%<br>OFF</p>
+                                        </div>
+                                    </div> <!-- slider product image -->
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="slider-product-content">
+                                        <h1 class="slider-title mb-10" data-animation="" data-delay="0.3s"><span>Style</span>Your<span>Self</span></h1>
+                                        <p class="mb-25" data-animation="" data-delay="0.3s"><br> </p>
+                                        <a class="main-btn" href="#contact" data-animation="" data-delay="1.0s">Contact Us <i class="lni-chevron-right"></i></a>
+                                    </div> <!-- slider product content -->
+                                </div>
+                            </div> <!-- row -->
+                        </div> <!-- container -->
+                </div> <!-- single slider -->
+            </div> <!-- slider active -->
+            <div class="slider-social">
+                <div class="row justify-content-end">
+                    <div class="col-lg-7 col-md-6">
+                        <ul class="social text-right">
+                            <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                            <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                            <li><a href="#"><i class="lni-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    
+    <!-- SLIDER PART ENDS -->
+   
+    <!-- DISCOUNT PRODUCT PART START -->
+    
+    <section id="discount-product" class="discount-product pt-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="single-discount-product mt-30">
+                        <div class="product-image">
+                            <img src="assets/images/discount-product/dp1.jpg" alt="Product">
+                        </div> <!-- product image -->
+                        <div class="product-content" id="b">
+                            <h4 class="content-title mb-15">Quality Bags<br> For you</h4>
+                            <a href="#product">View Collection <i class="lni-chevron-right"></i></a>
+                        </div> <!-- product content -->
+                    </div> <!-- single discount product -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-discount-product mt-30">
+                        <div class="product-image">
+                            <img src="assets/images/discount-product/bg2.jpg" alt="Product">
+                        </div> <!-- product image -->
+                        <div class="product-content">
+                            <h4 class="content-title mb-15">Hot Offer <br> Discount up to 30%</h4>
+                            <a href="#product">View Collection <i class="lni-chevron-right"></i></a>
+                        </div> <!-- product content -->
+                    </div> <!-- single discount product -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!-- DISCOUNT PRODUCT PART ENDS -->
+   
+    <!-- PRODUCT PART START -->
+    
+    <section id="product" class="product-area pt-100 pb-130">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4">
+                    <div class="collection-menu text-center mt-30">
+                        <h4 class="collection-tilte">OUR COLLECTION</h4>
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="active" id="v-pills-College-tab" data-toggle="pill" href="#v-pills-College" role="tab" aria-controls="v-pills-College" aria-selected="true">College</a>
+                            
+                            <a id="v-pills-Travel-tab" data-toggle="pill" href="#v-pills-Travel" role="tab" aria-controls="v-pills-Travel" aria-selected="false">Travel</a>
+                            
+                            <a id="v-pills-Spots-tab" data-toggle="pill" href="#v-pills-Sports" role="tab" aria-controls="v-pills-Sports" aria-selected="false">Sports</a>
+
+                            <a id="v-pills-Women-tab" data-toggle="pill" href="#v-pills-Women" role="tab" aria-controls="v-pills-Women" aria-selected="false">Women</a>
+
+                            <a id="v-pills-Kids-tab" data-toggle="pill" href="#v-pills-Kids" role="tab" aria-controls="v-pills-Kids" aria-selected="false">Kids</a>
+                            
+                         
+                        </div> <!-- nav -->
+                    </div> <!-- collection menu -->
+                </div>
+                <div class="col-lg-9 col-md-8">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-College" role="tabpanel" aria-labelledby="v-pills-College-tab">
+                            <div class="product-items mt-30">
+                                <div class="row product-items-active">
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/p1.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-59%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">American Tourister Black</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">949 Rs</span>
+                                                <span class="discount-price">2,300 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/p2.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-74%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Skybag Black</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">550 Rs</span>
+                                                <span class="discount-price">2,100 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/p3.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-62%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Safari</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star"></i></li>
+                                                </ul>
+                                                <span class="regular-price">999</span>
+                                                <span class="discount-price">2,599 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/p4.jpg" alt="Product"></a>
+                                                <div class=>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Skybag SB Marvel</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">1498 Rs</span>
+                                                <span class="discount-price"></span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/p5.jpg" alt="Product"></a>
+                                                <div class=>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Skybag neon</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">1,498</span>
+                                                <span class="discount-price"></span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                </div> <!-- row -->
+                            </div> <!-- product items -->
+                        </div> <!-- tab pane -->
+
+                        <div class="tab-pane fade" id="v-pills-Travel" role="tabpanel" aria-labelledby="v-pills-Travel-tab">
+                            <div class="product-items mt-30">
+                                <div class="row product-items-active">
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/t1.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-60%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Skybag Cardiff Polyester</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">1,749 Rs</span>
+                                                <span class="discount-price">4,400 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/t2.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-55%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Skybags Cardiff Polyester 55 cms Blue Travel</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">3,899 Rs</span>
+                                                <span class="discount-price">8,620 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/t3.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-60%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Safari Polyester 65 cms Blue Softsided</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">3,899 Rs</span>
+                                                <span class="discount-price">5,776 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/t4.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-60%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">American Tourister Ivy Polypropylene 55 cms Black</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">2,490 Rs</span>
+                                                <span class="discount-price">6,285 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/t5.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-64%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Safari Prisma 55 Cms Polyester Red Cabin</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">3,799 Rs</span>
+                                                <span class="discount-price">10,600 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                </div> <!-- row -->
+                            </div> <!-- product items -->
+                        </div> <!-- tab pane -->
+
+                        <div class="tab-pane fade" id="v-pills-Sports" role="tabpanel" aria-labelledby="v-pills-Sports-tab">
+                            <div class="product-items mt-30">
+                                <div class="row product-items-active">
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/sg1.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-38%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Nivia Deflate Round - 01 Bag (Black)</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">339 Rs</span>
+                                                <span class="discount-price">549 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/sg2.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-40%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Nivia Sports Space Gym Bag</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">479 Rs</span>
+                                                <span class="discount-price">799 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/sg3.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-62%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Puma Unisex Gym Bag IND II Fig-CASTLEROCK X</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">498 Rs</span>
+                                                <span class="discount-price">1,299 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/sg4.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-50%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">AUXTER Duffel Gym Bag,Shoulder Bag for Men & Women</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">472 Rs</span>
+                                                <span class="discount-price">950 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/sg5.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-55%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">AUXTER</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">400 Rs</span>
+                                                <span class="discount-price">900 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                </div> <!-- row -->
+                            </div> <!-- product items -->
+                        </div> <!-- tab pane -->
+
+                        <div class="tab-pane fade" id="v-pills-Women" role="tabpanel" aria-labelledby="v-pills-Women-tab">
+                            <div class="product-items mt-30">
+                                <div class="row product-items-active">
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/w.1.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-70%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">CAPRESE Women's Handbag (Blue)</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">1,560 Rs</span>
+                                                <span class="discount-price">5,199 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/w2.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-78%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Lino Perros Faux Leather Handbag</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">988 Rs</span>
+                                                <span class="discount-price">4,495 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/w3.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-71%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Envias Leatherette Side Sling Bags For Women's</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">439 Rs</span>
+                                                <span class="discount-price">1,499 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/w4.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-56%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">DailyObjects Trapeze Sling Crossbody Bag for girls</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">1,099 Rs</span>
+                                                <span class="discount-price">2,499 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/w5.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-55%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Lavie Women's Horse Bag </a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">1,807 Rs</span>
+                                                <span class="discount-price">3,990 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                </div> <!-- row -->
+                            </div> <!-- product items -->
+                        </div> <!-- tab pane -->
+
+                        <div class="tab-pane fade" id="v-pills-Kids" role="tabpanel" aria-labelledby="v-pills-Kids-tab">
+                            <div class="product-items mt-30">
+                                <div class="row product-items-active">
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/k1.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-55%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">259 Rs</span>
+                                                <span class="discount-price">599 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/k2.jpg" alt="Product"></a>
+                                                <div class=>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">249 Rs</span>
+                                                <span class="discount-price"></span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/k3.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-75%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">249 Rs</span>
+                                                <span class="discount-price">999 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/k4.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-19%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">559 Rs</span>
+                                                <span class="discount-price">699 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="single-product-items">
+                                            <div class="product-item-image">
+                                                <a href="#"><img src="assets/images/product/k5.jpg" alt="Product"></a>
+                                                <div class="product-discount-tag">
+                                                    <p>-64%</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-content text-center mt-30">
+                                                <h5 class="product-title"><a href="#">Touchwood Chair</a></h5>
+                                                <ul class="rating">
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                    <li><i class="lni-star-filled"></i></li>
+                                                </ul>
+                                                <span class="regular-price">249 Rs</span>
+                                                <span class="discount-price">699 Rs</span>
+                                            </div>
+                                        </div> <!-- single product items -->
+                                    </div>
+                                </div> <!-- row -->
+                            </div> <!-- product items -->
+                        </div> <!-- tab pane -->
+                    </div> <!-- tab content --> 
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!-- PRODUCT PART ENDS -->
+
+    <!-- SERVICES PART START -->
+    
+    
+    
+    <!-- SERVICES PART ENDS -->
+
+    <!-- SHOWCASE PART START -->
+    
+    <section id="showcase" class="showcase-area pt-100 pb-130">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="showcase-title pt-25">
+                        <h2 class="title">Showcase</h2>
+                    </div> <!-- showcase title -->
+                </div> 
+                <div class="col-lg-6">
+                    <div class="showcase-title pt-25">
+                        <p>For some, travel is an escape from everyday life. But for others, it’s a chance to grow and learn. To explore places near and far with wonder and curiosity.</p>
+                    </div> <!-- showcase title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="showcase-active mt-65">
+                        <div class="single-showcase">
+                            <img src="assets/images/showcase/show2.jpg" alt="Testimonial">
+                            <a href="#" class="main-btn">Full Preview</a>
+                        </div> <!-- single showcase -->
+                        <div class="single-showcase">
+                            <img src="assets/images/showcase/show1.jpg" alt="Testimonial">
+                            <a href="#" class="main-btn">Full Preview</a>
+                        </div> <!-- single showcase -->
+                        <div class="single-showcase">
+                            <img src="assets/images/showcase/show3.jpg" alt="Testimonial">
+                            <a href="#" class="main-btn">Full Preview</a>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                 </div>
+                    </div> <!-- showcase active -->
                 </div>
-  
-            
-              <div class="p-2 bd-highlight">
-                <button class="btn btn-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                  </svg><span class="text-muted" style="font-size: 15px;">My Cart</span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              
-            </div>
-          </div>
-        </div>
-      </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
     
-      <!-- Departments -->
+    <!-- SHOWCASE PART ENDS -->
 
-      <div class="container">
-        
-        <div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly">
-          <div class="p-2 bd-highlight">
-            <div class="dropdown dep">
-            <button class="btn btn-white dropdown-toggle text-muted" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid" viewBox="0 0 16 16">
-                <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
-              </svg> Departments
-            </button>
-            <div class="hide">
-            <div class="d-flex flex-column bd-highlight mb-3">
-              <div class="p-2 bd-highlight"><div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card ">
-                    <img src="images/01(1).jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Clothing</h5>
-                      <a href="#" class="text-muted">Women's Clothing</a><br>
-                      <a href="#" class="text-muted">Men's Clothing</a><br>
-                      <a href="#" class="text-muted">Kid's  Clothing</a><br>
-
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card ">
-                    <img src="images/02(1).jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Shoes</h5>
-                      <a href="#" class="text-muted">Women's Shoes</a><br>
-                      <a href="#" class="text-muted">Men's Shoes</a><br>
-                      <a href="#" class="text-muted">Kid's Shoes</a><br>
-
-                    </div>
-                    
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card ">
-                    <img src="images/03(1).jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Gadgets</h5>
-                      <a href="#" class="text-muted">Smartphones & Tablets</a><br>
-                      <a href="#" class="text-muted">Wearable Gadgets</a><br>
-                      <a href="#" class="text-muted">E-book readers</a><br>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-              <div class="p-2 bd-highlight"><div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card ">
-                    <img src="images/04(1).jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Furniture & Decor</h5>
-                      <a href="#" class="text-muted">Home Furniture</a><br>
-                      <a href="#" class="text-muted">Office Furniture</a><br>
-                      <a href="#" class="text-muted">Lightning and decoration</a><br>
-
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card ">
-                    <img src="images/05.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Accessories</h5>
-                      <a href="#" class="text-muted">Hats</a><br>
-                      <a href="#" class="text-muted">Sunglasses</a><br>
-                      <a href="#" class="text-muted">Bags</a><br>
-
-                    </div>
-                    
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card ">
-                    <img src="images/06.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Entertainment</h5>
-                      <a href="#" class="text-muted">Kid's Toys</a><br>
-                      <a href="#" class="text-muted">Video games</a><br>
-                      <a href="#" class="text-muted">Outdoor/Camping</a><br>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </div></div>
-            </div>
-            </div>
-          </div>
-          <div class="p-2 bd-highlight dep"><a href="#" class="text-muted">Home</a>
-            <div class="hide mt-2">
-              <a href="#" class="text-muted">Home Page 1</a><br>
-              <a href="#" class="text-muted">Home PAGE 2</a><br>
-              <a href="#" class="text-muted">HOME PSGE 3</a><br>
-            </div>
-          </div>
-          <div class="p-2 bd-highlight dep"><a href="#" class="text-muted">Shope</a>
-            <div class="hide">
-            <div class="d-flex flex-row bd-highlight mb-3">
-              <div class="p-2 bd-highlight">
-                <h6>Shop Layouts</h6>
-                <a href="#" class="text-muted">Shop Grid-Left Slidebar</a><br>
-                <a href="#" class="text-muted">Shop Grid-Rigtht Slidebar</a><br>
-                <a href="#" class="text-muted">Shop Grid-Filters on Top</a><br>
-                <a href="#" class="text-muted">Shop List-Left Slidebar</a><br>
-                <a href="#" class="text-muted">Shop List-Right Slidebar</a><br><br>
-                <h6>Marketplace</h6>
-                <a href="#" class="text-muted">Catagory page</a><br>
-                <a href="#" class="text-muted">Single item page</a><br>
-                <a href="#" class="text-muted">Vendor page</a><br>
-                <a href="#" class="text-muted">Cart</a><br>
-                <a href="#" class="text-muted">Checkout</a><br><br>
-                <h6>Grocery Store</h6>
-                <a href="#" class="text-muted">Product Catelog</a><br>
-                <a href="#" class="text-muted">Single Product page</a><br>
-                <a href="#" class="text-muted">Checkout</a><br>
-                
-              </div>
-              <div class="p-2 bd-highlight">
-                <h6>Food Delivery</h6>
-                <a href="#" class="text-muted">Catagory page</a><br>
-                <a href="#" class="text-muted">Single item(Restaurant)</a><br>
-                <a href="#" class="text-muted">Cart(Your Order)</a><br>
-                <a href="#" class="text-muted">Checkout(Address & Payments)</a><br><br>
-
-                <h6>NFT Marketplace <span class="bg-danger text-white">New</span></h6>
-                <a href="#" class="text-muted">Catalog V.1</a><br>
-                <a href="#" class="text-muted">Catalog V.2</a><br>
-                <a href="#" class="text-muted">Single Item - Auction Live</a><br>
-                <a href="#" class="text-muted">Single Item - Auction Ended</a><br>
-                <a href="#" class="text-muted">Single Item - Buy Now</a><br>
-                <a href="#" class="text-muted">Vendor Page</a><br>
-                <a href="#" class="text-muted">Connect Wallet</a><br>
-                <a href="#" class="text-muted">Create New item</a><br><br>
-              </div>
-              <div class="p-2 bd-highlight">
-                 <h6>Shop Pages</h6>
-                <a href="#" class="text-muted">Shop Catagory </a><br>
-                <a href="#" class="text-muted">Product page-V.1</a><br>
-                <a href="#" class="text-muted">Product page-V.2</a><br>
-                <a href="#" class="text-muted">Cart</a><br>
-                <a href="#" class="text-muted">Checkout-Details</a><br>
-                <a href="#" class="text-muted">Checkout-Shipping</a><br>
-                <a href="#" class="text-muted">Checkout-Payments</a><br>
-                <a href="#" class="text-muted">Checkout-Review</a><br>
-                <a href="#" class="text-muted">Checkout-Complete</a><br>
-                <a href="#" class="text-muted">Order Tracking</a><br>
-                <a href="#" class="text-muted">Product Comparision</a><br>
-              </div>
-            </div></div>
-          </div>
-          <div class="p-2 bd-highlight dep"><a href="#" class="text-muted">Account</a>
-            <div class="hide">
-            <a href="#" class="text-muted">Shop User Account</a><br>
-            <a href="#" class="text-muted">Vendor Dashboard</a><br>
-            <a href="#" class="text-muted">NFT Marketplace<span class="bg-danger text-white">New</span></a><br>
-            <a href="#" class="text-muted">Sign In/Sign up</a><br>
-            <a href="#" class="text-muted">Password Recovery</a><br>
-          </div>
-          </div>
-          <div class="p-2 bd-highlight dep"><a href="#" class="text-muted">Pages</a>
-          <div class="hide mt-2">
-            <a href="#" class="text-muted">Navbar Variants</a><br>
-            <hr>
-            <a href="#" class="text-muted">About Us</a><br>
-            <a href="#" class="text-muted">Contacts</a><br>
-            <a href="#" class="text-muted">Help Center</a><br>
-            <a href="#" class="text-muted">404 Not Found</a><br>
-            <hr>
-            <a href="#" class="text-muted">Sticky Footer Demo</a><br>
-          </div>
-          </div>
-          <div class="p-2 bd-highlight dep"><a href="#" class="text-muted">Blog</a>
-            <div class="hide mt-2">
-              <a href="#" class="text-muted">Blog List Layouts</a><br>
-              <a href="#" class="text-muted">Blog Grid Layouts</a><br>
-              <a href="#" class="text-muted">Single Post Layouts</a><br>
-              
-            </div>
-            </div>
-          <div class="p-2 bd-highlight dep"><a href="#" class="text-muted">Docs/Components</a>
-            <div class="hide mt-2">
-              <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-files " viewBox="0 0 16 16">
-                <path d="M13 0H6a2 2 0 0 0-2 2 2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 13V4a2 2 0 0 0-2-2H5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zM3 4a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4z"/>
-              </svg><span>Documentation<p class="text-muted" style="font-size: 12px;">Kick Start Customization</p></span></a><br>
-              
-              <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-hdd-stack" viewBox="0 0 16 16">
-                <path d="M14 10a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h12zM2 9a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2H2z"/>
-                <path d="M5 11.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM14 3a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
-                <path d="M5 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
-              </svg><span> Components <span class="bg-primary text-white">40+</span><p class="text-muted" style="font-size: 12px;">Faster Page Building</p></span></a><br>
-
-              <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
-                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
-                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
-              </svg><span> Changelog <span class="bg-info text-white">V2.5.0</span><p class="text-muted" style="font-size: 12px;">Regular Updates</p></span></a><br>
-
-              <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-life-preserver" viewBox="0 0 16 16">
-                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm6.43-5.228a7.025 7.025 0 0 1-3.658 3.658l-1.115-2.788a4.015 4.015 0 0 0 1.985-1.985l2.788 1.115zM5.228 14.43a7.025 7.025 0 0 1-3.658-3.658l2.788-1.115a4.015 4.015 0 0 0 1.985 1.985L5.228 14.43zm9.202-9.202-2.788 1.115a4.015 4.015 0 0 0-1.985-1.985l1.115-2.788a7.025 7.025 0 0 1 3.658 3.658zm-8.087-.87a4.015 4.015 0 0 0-1.985 1.985L1.57 5.228A7.025 7.025 0 0 1 5.228 1.57l1.115 2.788zM8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-              </svg><span> Support <p class="text-muted"style="font: size 12px; ">support@createx.studio</p></span></a><br>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- slider -->
-
-      <!-- Courosal -->
-  <div id="carouselExampleControls"class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div
-        class="d-flex flex-row bd-highlight mb-3 align-items-center justify-content-evenly"
-        style="background-color: #f5b1b0">
-        <div class="p-2 bd-highlight text-white flex-grow-1 ms-5">
-          <h3>Hurry up! Limited Time Offer</h3>
-          <h2>Women Sportwear Sale</h2>
-          <h5>Sneakers, Keds, Sweatshirts, Hoodies, & Much more...</h5>
-          <button type="button" class="btn btn-danger">
-            Shop Now &gt;
-          </button>
-        </div>
-        <div class="p-2 bd-highlight">
-          <img src="images/02(2).jpg" class="img-fluid float-end" />
-        </div>
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div
-        class="d-flex flex-row bd-highlight mb-3 align-items-center justify-content-evenly"
-        style="background-color: #eba170">
-        <div class="p-2 bd-highlight text-white flex-grow-1 ms-5">
-          <h3>Complete Your look with</h3>
-          <h2>New Men's Accessories</h2>
-          <h5>Hats & Caps, Sunglasses, Bags & Much more...</h5>
-          <button type="button" class="btn btn-danger">
-            Shop Now &gt;
-          </button>
-        </div>
-        <div class="p-2 bd-highlight">
-          <img src="images/03(2).jpg" class="img-fluid float-end" />
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div
-        class="d-flex flex-row bd-highlight mb-3 align-items-center justify-content-evenly"
-        style="background-color: #3aafd2">
-        <div class="p-2 bd-highlight text-white flex-grow-1 ms-5">
-          <h3>Has Just Arrived</h3>
-          <h2>Huge Summer Collection</h2>
-          <h5>Swimwear, Tops, Shorts, Sunglasses, & Much more...</h5>
-          <button type="button" class="btn btn-danger">
-            Shop Now &gt;
-          </button>
-        </div>
-        <div class="p-2 bd-highlight">
-          <img src="images/01(2).jpg" class="img-fluid float-end" />
-        </div>
-      </div>
-    </div>
-  </div>
-  <button
-    class="carousel-control-prev"
-    type="button"
-    data-bs-target="#carouselExampleControls"
-    data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    class="carousel-control-next"
-    type="button"
-    data-bs-target="#carouselExampleControls"
-    data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
- <!-- For Women -->
- <div class="container">
-  <div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly">
-    <div class="p-2 bd-highlight bg-light">
-      <h3 class="d-inline p-4">For Women</h3>
-      <span class="p-2"><i class="fa-solid fa-circle-chevron-left"></i> <i class="fa-solid fa-circle-chevron-right"></i></span><br><br>
-      <a href="trending.html" class="text-danger p-4">Shop for woman &gt;</a><br><br>
-      <img src="images/cat-lg02.jpg" class="h-75" width="400">
-    </div>
-    <div class="p-2 bd-highlight">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/9.jpg" class="card-img-top" alt="..." height="150" width="100">
-            <div class="card-body">
-              
-              <p class="card-text text-muted" style="font-size: 14px;">Cosmetics</p>
-              <h6 class="card-title" style="font-size: 14px;">Metallic Lipstick (Crimson)</h6>
-              <p class="text-primary d-inline"style="font-size: 12px;">$12.99</p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></span>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/26.jpg" class="card-img-top" alt="..." height="175" width="100">
-            <div class="card-body">
-              <p class="card-text text-muted" style="font-size: 14px;">Shoes</p>
-              <h6 class="card-title" style="font-size: 14px;">Textile Platform Sneakers</h6>
-              <p class="text-primary d-inline"style="font-size: 12px;">$59.99</p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/27.jpg" class="card-img-top" alt="..." height="150" width="100">
-            <div class="card-body">
-              <p class="card-text text-muted" style="font-size: 14px;">Accessories</p>
-              <h6 class="card-title" style="font-size: 14px;">Polarized Sunglasses</h6>
-              <p class="text-primary d-inline" style="font-size: 12px;">$17.99 <strike class="text-muted"> $28.99</strike></p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
-                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
-            </div>
-            
-          </div>
-        </div>
-      </div><br>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/03(4).jpg" class="card-img-top" alt="..." height="150" width="100">
-            <div class="card-body">
-              
-              <p class="card-text text-muted" style="font-size: 14px;">Shoes</p>
-              <h6 class="card-title" style="font-size: 14px;">Leather Platform Sandals</h6>
-              <p class="text-primary d-inline"style="font-size: 12px;">$79.99</p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/03(3).jpg" class="card-img-top" alt="..." height="150" width="100">
-            <div class="card-body">
-              <p class="card-text text-muted" style="font-size: 14px;">Shorts</p>
-              <h6 class="card-title" style="font-size: 14px;">Shorts Chino Shorts</h6>
-              <p class="text-primary d-inline"style="font-size: 12px;">$24.99</p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/01(4).jpg" class="card-img-top" alt="..." height="150" width="100">
-            <div class="card-body">
-              <p class="card-text text-muted" style="font-size: 14px;">T-shirts</p>
-              <h6 class="card-title" style="font-size: 14px;">T-shirts with Motif</h6>
-              <p class="text-primary d-inline" style="font-size: 12px;">$13.99</p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
-            </div>
-          </div>
-        </div>
-       </div>
-       </div>
-       </div>
-       </div>
-
-      <!-- for men --> 
-
-      <div class="container">
-        <div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly">
-          
-          <div class="p-2 bd-highlight">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
-                <div class="card">
-                  <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-                  <img src="images/31.jpg" class="card-img-top" alt="..." height="175" width="100">
-                  <div class="card-body">
-                    <p class="card-text text-muted" style="font-size: 14px;">Hats & Caps</p>
-                    <h6 class="card-title" style="font-size: 14px;">Caps with Applique</h6>
-                    <p class="text-primary d-inline"style="font-size: 12px;">$15.99</p>
-                    <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-                  <img src="images/33.jpg" class="card-img-top" alt="..." height="175" width="100">
-                  <div class="card-body">
-                    <p class="card-text text-muted" style="font-size: 14px;">T-Shirts</p>
-                    <h6 class="card-title" style="font-size: 14px;">Regular fit Cotton Shirt</h6>
-                    <p class="text-primary d-inline"style="font-size: 12px;">$19.99</p>
-                    <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></span>
-                  </div> 
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-                  <img src="images/34.jpg" class="card-img-top" alt="..." height="175" width="100">
-                  <div class="card-body">
-                    <p class="card-text text-muted" style="font-size: 14px;">Accessories</p>
-                    <h6 class="card-title" style="font-size: 14px;">Polarized Sunglasses</h6>
-                    <p class="text-primary d-inline" style="font-size: 12px;">$37.99 </p>
-                    <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
-                  </div> 
-                </div>
-              </div>
-            </div><br>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
-                <div class="card">
-                  <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-                  <img src="images/35.jpg" class="card-img-top" alt="..." height="158" width="100">
-                  <div class="card-body">
-                    
-                    <p class="card-text text-muted" style="font-size: 14px;">Shoes</p>
-                    <h6 class="card-title" style="font-size: 14px;">Leather Men's Sneakers</h6>
-                    <p class="text-primary d-inline"style="font-size: 12px;">$45.99</p>
-                    <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-                  <img src="images/36.jpg" class="card-img-top" alt="..." height="158" width="100">
-                  <div class="card-body">
-                    <p class="card-text text-muted" style="font-size: 14px;">Bags</p>
-                    <h6 class="card-title" style="font-size: 14px;">Swedish Bagpack</h6>
-                    <p class="text-primary d-inline"style="font-size: 12px;">$68.95</p>
-                    <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
-                      <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i></span>
-                  </div> 
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-                  <img src="images/37.jpg" class="card-img-top" alt="..." height="158" width="100">
-                  <div class="card-body">
-                    <p class="card-text text-muted" style="font-size: 14px;">Accessories</p>
-                    <h6 class="card-title" style="font-size: 14px;">Strainless Steel Watches</h6>
-                    <p class="text-primary d-inline" style="font-size: 12px;">$542.80</p>
-                    <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> 
-          <div class="p-2 bd-highlight bg-light">
-            <div class="d-flex flex-row bd-highlight mb-3">
-              <div class="p-2 bd-highlight flex-grow-1" style="font-size: 30px;"><i class="fa-solid fa-circle-chevron-left"></i><i class="fa-solid fa-circle-chevron-right"></i></div>
-              <div class="p-2 bd-highlight" ><h3 class="d-inline p-4">For Men</h3><br><a href="trending.html" class="text-danger p-4">Shop for Men &gt;</a></div><br>
-            </div>
-            <img src="images/cat-lg01.jpg" class="h-75" width="400">
-          </div>        
-        </div>
-      </div>
-      <br><br>
-
-      <!-- For Kids -->
-
-<div class="container">
-  <div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly">
-    <div class="p-2 bd-highlight bg-light">
-      <div class="d-flex flex-row bd-highlight mb-3">
-        <div class="p-2 bd-highlight flex-grow-1"><h3 class="d-inline p-4">For Kids</h3><br><a href="trending.html" class="text-danger p-4">Shop for Kids &gt;</a></div><br>
-        <div class="p-2 bd-highlight" style="font-size: 30px;"><i class="fa-solid fa-circle-chevron-left"></i> <i class="fa-solid fa-circle-chevron-right"></i></div>
-      </div>
-      <img src="images/cat-lg03.jpg" class="h-75" width="400">
-    </div>
-    <div class="p-2 bd-highlight">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/40.jpg" class="card-img-top" alt="..." height="158" width="100">
-            <div class="card-body">
-              
-              <p class="card-text text-muted" style="font-size: 14px;">Clothing</p>
-              <h6 class="card-title" style="font-size: 14px;">Girl's Denim Jackets</h6>
-              <p class="text-primary d-inline"style="font-size: 12px;">$24.99</p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i></i><i class="fa-regular fa-star"></i></span>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/41.jpg" class="card-img-top" alt="..." height="158" width="100">
-            <div class="card-body">
-              <p class="card-text text-muted" style="font-size: 14px;">Shoes</p>
-              <h6 class="card-title" style="font-size: 14px;">Textile Ballets Flats</h6>
-              <p class="text-primary d-inline"style="font-size: 12px;">$16.50</p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star fa-star-half-stroke"></i><i class="fa-regular fa-star"></i></span>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/42.jpg" class="card-img-top" alt="..." height="158" width="100">
-            <div class="card-body">
-              <p class="card-text text-muted" style="font-size: 14px;">T-hirts</p>
-              <h6 class="card-title" style="font-size: 12px;">Boys T-shirts with motif</h6>
-              <p class="text-primary d-inline" style="font-size: 12px;">$17.99</p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
-            </div>
-            
-          </div>
-        </div>
-      </div><br>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/43.jpg" class="card-img-top" alt="..." height="175" width="100">
-            <div class="card-body">
-              
-              <p class="card-text text-muted" style="font-size: 14px;">Accessories</p>
-              <h6 class="card-title" style="font-size: 14px;">Dotted Shoulder bag</h6>
-              <p class="text-primary d-inline"style="font-size: 12px;">$23.00</p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/44.jpg" class="card-img-top" alt="..." height="175" width="100">
-            <div class="card-body">
-              <p class="card-text text-muted" style="font-size: 14px;">Hats & Caps</p>
-              <h6 class="card-title" style="font-size: 14px;">2-pack Cotton Sun Hats</h6>
-              <p class="text-primary d-inline"style="font-size: 12px;">$18.00</p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
-                <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div style="text-align: right;"><i class="fa-regular fa-heart bg-light"></i></div>
-            <img src="images/08.jpg" class="card-img-top" alt="..." height="175" width="100">
-            <div class="card-body">
-              <p class="card-text text-muted" style="font-size: 14px;">Toys</p>
-              <h6 class="card-title" style="font-size: 14px;">Soft Panda Teddy Bear</h6>
-              <p class="text-primary d-inline" style="font-size: 12px;">$14.99</p>
-              <span class="text-warning float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>         
-  </div>
-</div>
-
-<!-- Shop by brand -->
-
-<div class="container">
-  <h2 style="text-align: center;" class="mb-4">Shop By Brand</h2>
-  <div class="row mb-4">
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/01.jpg" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/02.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>  
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/03.jpg" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/04.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row mb-4">
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/05.jpg" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/06.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/07.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/08.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row mb-4">
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/09.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/10.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/11.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="card shadow">
-        <div class="card-body">
-          <a href="#"><img src="images/12.png" alt="" class="img-fluid mx-auto d-block" height="150" width="150"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Bestsellers -->
-
-<div class="container">
-  <div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly">
-    <div class="p-2 bd-highlight">
-      <h5>Bestsellers</h5>
-      <table >
-        <tr class="border-bottom">
-        <td>
-          <a href="#"><img src="images/01.jpg"></a> 
-        </td>
-        <td>
-         <a href="#"> <span>Women Colorblock Sneakers</span></a> <br> $150.00
-        </td>
-      </tr>
-      <tr class="border-bottom">
-        <td>
-          <a href="#"><img src="images/02.jpg"></a> 
-        </td>
-        <td>
-         <a href="#"> <span>TH Jeans City Backpack</span></a> <br> $79.50
-        </td>
-      </tr>
-      <tr class="border-bottom">
-        <td>
-          <a href="#"><img src="images/03.jpg"></a> 
-        </td>
-        <td>
-         <a href="#"> <span>3 Color Sun Stash Hat</span></a> <br> $22.50
-        </td>
-      </tr>
-      <tr >
-        <td>
-          <a href="#"><img src="images/04.jpg"></a> 
-        </td>
-        <td>
-         <a href="#"> <span>Cotton polo Regular fit</span></a> <br> $9.00
-        </td>
-      </tr>
-      </table>
-      ... <br>
-      <a href="#" class="text-danger">View More</a>
-    </div>
-    <div class="p-2 bd-highlight">
-      <h5>New Arrivals</h5>
-      <table >
-        <tr class="border-bottom">
-        <td>
-          <a href="#"><img src="images/02(4).jpg"></a> 
-        </td>
-        <td>
-         <a href="#"> <span>Cap with Applique</span></a> <br> 
-         <span class="text-muted">$15.99</span>
-        </td>
-      </tr>
-      <tr class="border-bottom">
-        <td>
-          <a href="#"><img src="images/01(4).jpg"></a> 
-        </td>
-        <td>
-         <a href="#"> <span>Girl's T-Shirt with Motif</span></a> <br> $14.50
-        </td>
-      </tr>
-      <tr class="border-bottom">
-        <td>
-          <a href="#"><img src="images/03(4).jpg"></a> 
-        </td>
-        <td>
-         <a href="#"> <span>Leather Platform Sandals</span></a> <br> $78.50
-        </td>
-      </tr>
-      <tr >
-        <td>
-          <a href="#"><img src="images/04(3).jpg"></a> 
-        </td>
-        <td>
-         <a href="#"> <span>Regular Fit Cotton shirt</span></a> <br> $9.00
-        </td>
-      </tr>
-      </table>
-      ... <br>
-      <a href="#" class="text-danger">View More</a>
-    </div>
-    <div class="p-2 bd-highlight">
-      <h5></h5>
-      <a href="#"><img src="images/v-banner.jpg" alt=""></a>
-    </div>
-  </div>
-  </div>
-
-  <!-- Blog and Instagram -->
-  
-  <div class="row">
-    <div class="col-6 align-middle p-5"style="background-color: lightpink; text-align:center;">
-      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pencil-square text-danger" viewBox="0 0 16 16">
-        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
-        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
-      </svg>
-      <h5>Read the Blog</h5>
-      <p class="text-muted">Latest Fashion news and trends</p></a>
-    </div>
-    <div class="col-6 align-middle p-5" style="background-color: lightBlue;text-align:center;">
-      <a href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram text-primary" viewBox="0 0 16 16">
-          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-        </svg>
-        <h5>Follow on Instagram</h5>
-      <p class="text-muted">#shopwithcartzila</p>
-      </a>
-    </div>
-  </div> <br>
-  <!-- Footer 1 -->
-  <div class="d-flex flex-row bd-highlight mb-3 justify-content-evenly bg-dark pt-5 text-white">
+    <!-- TEAM PART START -->
     
-    <div class="p-2 bd-highlight">
-      <h5>Shop Departments</h5>
-      <a href="#" class="text-muted">Sneakers and Athletic</a><br>
-      <a href="#"class="text-muted">Athletic Apparel</a><br>
-      <a href="#"class="text-muted">Sandals</a><br>
-      <a href="#"class="text-muted">Jeans</a><br>
-      <a href="#"class="text-muted">Sneakers & Athletic</a><br>
-      <a href="#"class="text-muted">Shirt & Tops</a><br>
-      <a href="#"class="text-muted">Shorts </a><br>
-      <a href="#"class="text-muted">T-Shirt </a><br>
-      <a href="#"class="text-muted"> Swimwear</a><br>
-      <a href="#"class="text-muted"> Clogs & wallets</a><br>
-      <a href="#"class="text-muted"> Accessories</a><br>
-      <a href="#"class="text-muted"> Sunglasses & Eyewear</a><br>
-      <a href="#"class="text-muted"> Watches</a><br>
-    </div>
-    <div class="p-2 bd-highlight">
-      <h5>Account & Shipping info</h5>
-      <a href="#" class="text-muted">Your account</a><br>
-      <a href="#"class="text-muted">Shipping & policies</a><br>
-      <a href="#"class="text-muted">Refunds & Replacements</a><br>
-      <a href="#"class="text-muted">Order Tracking</a><br>
-      <a href="#"class="text-muted">Delivery info</a><br>
-      <a href="#"class="text-muted">Taxes & fees</a><br> <br>
-      <h5>About Us</h5>
-      <a href="#"class="text-muted">About Company </a><br>
-      <a href="#"class="text-muted">Our Team</a><br>
-      <a href="#"class="text-muted"> Careers</a><br> 
-      <a href="#"class="text-muted">News</a><br> <br>
-    </div>
-    <div class="p-2 bd-highlight">
-      <h5>Stay Informed</h5>
-      <form
-      class="subscription-form validate"
-      action="https://studio.us12.list-manage.com/subscribe/post?u=c7103e2c981361a6639545bd5&amp;amp;id=29ca296126"
-      method="post"
-      name="mc-embedded-subscribe-form"
-      target="_blank"
-      novalidate="">
+    <section id="team" class="team-area pt-125 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-25">
+                        <h3 class="title mb-15">Our Expert Team</h3>
+                        <p>.</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-8">
+                    <div class="single-temp text-center mt-30">
+                        <div class="team-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                              </svg>
+                        </div>
+                        <div class="team-content mt-30">
+                            <h4 class="title mb-10"><a href="#">Suraj Chougule</a></h4>
+                            <span>FOUNDER</span>
+                            <ul class="social mt-15">
+                                <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                                <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                                <li><a href="#"><i class="lni-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div> <!-- single temp -->
+                </div>
+               
+              
+    </section>
     
-      <div class="input-group flex-nowrap">
-        <i
-          class="ci-mail position-absolute top-50 translate-middle-y text-muted fs-base ms-3"
-        ></i>
-        <input
-          class="form-control rounded-start"
-          type="email"
-          name="EMAIL"
-          placeholder="Your email"
-          required="">
-        
-        <button
-          class="btn btn-danger"
-          type="submit"
-          name="subscribe">
-        
-          Subscribe*
-        </button>
-      </div>
-      <div
-        style="position: absolute; left: -5000px"
-        aria-hidden="true">
-      
-        <input
-          class="subscription-form-antispam"
-          type="text"
-          name="b_c7103e2c981361a6639545bd5_29ca296126"
-          tabindex="-1">
-        
-      </div>
-      <div class="form-text text-light opacity-50">
-        *Subscribe to our newsletter to receive early discount offers,
-        updates and new products info.
-      </div>
-      <div class="subscription-status"></div>
-    </form>
-  
-    </div>
-  </div>  
+    <!-- TEAM PART ENDS -->
+
+    <!-- TESTIMONIAL PART START -->
+    
+    <!-- <section id="testimonial" class="testimonial-area pt-200"> -->
+        <!-- <div class="testimonial-bg bg_cover" style="background-image: url(assets/images/testimonial/bg1.jpg)"></div> -->
+        <!-- <div class="container"> -->
+            <!-- <div class="row"> -->
+                <!-- <div class="col-lg-5 col-md-8"> -->
+                    <!-- <div class="testimonial-content"> -->
+                        <!-- <div class="testimonial-active"> -->
+                            <!-- <div class="single-testimonial">
+                                <i class="lni-quotation"></i>
+                                <p class="mb-30">Every Caprese bag has an identity of its own. A lot can be said about the girl who carries a certain kind of bag. </p>
+                                <h6 class="title">Raj Singh Sikarwar</h6>
+                                <span>-marketing maniac</span> -->
+                            <!-- </div> single testimonial -->
+                            <!-- <div class="single-testimonial"> -->
+                                <!-- <i class="lni-quotation"></i> -->
+                                <!-- <p class="mb-30">Her style can be deciphered based on the sort of bag she sports, depending on the place, time and occasion.</p> -->
+                                <!-- <h6 class="title">Lisa White</h6> -->
+                                <!-- <span>- Designer, Walmart</span> -->
+                            <!-- </div> single testimonial -->
+                        <!-- </div> testimonial active -->
+                    <!-- </div> testimonial content -->
+                <!-- </div> -->
+                <!-- <div class="col-lg-7 col-md-4"> -->
+                    <!-- <div class="testimonial-play text-right d-none d-md-block"> -->
+                        <!-- <a class="Video-popup" href="https://www.youtube.com/watch?v=LU1mlVH59nc"><i class="lni-play"></i></a> -->
+                   <!-- </div> testimonial play -->
+                <!-- </div> -->
+            <!-- </div> row -->
+        <!-- </div> container -->
+    <!-- </section> -->
+    
+    <!-- TESTIMONIAL PART ENDS -->
+
+    <!--  BLOG PART START -->
+    
+    <!--  BLOG PART ENDS -->
+
+    <!-- CONTACT PART START -->
+    
+    <section id="contact" class="contact-area pt-115">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="contact-title text-center">
+                        <h2 class="title">Get In Touch</h2>
+                    </div> <!-- contact title -->
+                </div>
+            </div> <!-- row -->
+            <div class="contact-box mt-70">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="contact-info pt-25">
+                            <h4 class="info-title">Contact Info</h4>
+                            <ul>
+                                <li>
+                                    <div class="single-info mt-30">
+                                        <div class="info-icon">
+                                            <i class="lni-phone-handset"></i>
+                                        </div>
+                                        <div class="info-content">
+                                            <p>0231</p>
+                                        </div>
+                                    </div> <!-- single info -->
+                                </li>
+                                <li>
+                                    <div class="single-info mt-30">
+                                        <div class="info-icon">
+                                            <i class="lni-envelope"></i>
+                                        </div>
+                                        <div class="info-content">
+                                            <p>kalapistore@gmail.com</p>
+                                        </div>
+                                    </div> <!-- single info -->
+                                </li>
+                                <li>
+                                    <div class="single-info mt-30">
+                                        <div class="info-icon">
+                                            <i class="lni-home"></i>
+                                        </div>
+                                        <div class="info-content">
+                                            <p>18/63, C Ward, Near Padma Talkies, Shivaji Road, Kolhapur, Maharashtra-416003</p>
+                                        </div>
+                                    </div> <!-- single info -->
+                                </li>
+                            </ul>
+                        </div> <!-- contact info -->
+                    </div> 
+                    <div class="col-lg-8">
+                        <div class="contact-form">
+                            <form id="contact-form" netlify>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="single-form form-group">
+                                            <input type="text" name="name" placeholder="Enter Your Name" data-error="Name is required." required="required">
+                                            <div class="help-block with-errors"></div>
+                                        </div> <!-- single form -->
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="single-form form-group">
+                                            <input type="email" name="email" placeholder="Enter Your Email"  data-error="Valid email is required." required="required">
+                                            <div class="help-block with-errors"></div>
+                                        </div> <!-- single form -->
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="single-form form-group">
+                                            <textarea name="message" placeholder="Enter Your Message" data-error="Please,leave us a message." required="required"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div> <!-- single form -->
+                                    </div>
+                                    <p class="form-message"></p>
+                                    <div class="col-lg-12">
+                                        <div class="single-form form-group">
+                                            <button class="main-btn" type="submit">CONTACT NOW</button>
+                                        </div> <!-- single form -->
+                                    </div>
+                                </div> <!-- row -->
+                            </form>
+                        </div> <!-- row -->
+                    </div> 
+                </div> <!-- row -->
+            </div> <!-- contact box -->
+        </div> <!-- container -->
+    </section>
+    
+    <!-- CONTACT PART ENDS -->
+
+    <!-- FOOTER PART START -->
+    
+    <section id="footer" class="footer-area">
+        <div class="container">
+            <div class="footer-widget pt-75 pb-120">
+                <div class="row">
+                    <div class="col-lg-3 col-md-5 col-sm-7">
+                        <div class="footer-logo mt-40">
+                            <a href="#">
+                                <img src="assets/images/logo1_1_150x50 - Copy.png" alt="Logo">
+                            </a>
+                            <p class="mt-10">All products are tested for strength, durability and performance based on the demands of frequent travelers.</p>
+                            <ul class="footer-social mt-25">
+                                <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                                <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                                <li><a href="#"><i class="lni-instagram"></i></a></li>
+                            </ul>
+                        </div> <!-- footer logo -->
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4">
+                        <div class="footer-link mt-50">
+                            <h5 class="f-title">Services</h5>
+                            <ul>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Product Registeration</a></li>
+                                <li><a href="#">International Shopping</a></li>
+                               
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-len-2 col-md-2 col-sm-4">
+                    <div class="footer-link mt-50">
+                        <h5 class="f-title">Order</h5>
+                        <ul>
+                            <li><a href="#">Track your order</a></li>
+                            <li><a href="#">Shipping & Delivery</a></li>
+                            <li><a href="#">Return policy</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-5">
+                        <div class="footer-link mt-50">
+                            <h5 class="f-title">Help</h5>
+                            <ul>
+                                <li><a href="#">Forum</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-5">
+                        <div class="footer-info mt-50">
+                            <h5 class="f-title">Contact Info</h5>
+                            <ul>
+                                <li>
+                                    <div class="single-footer-info mt-20">
+                                        <span>Phone :</span>
+                                        <div class="footer-info-content">
+                                            <p>0231</p>
+                                            <p></p>
+                                        </div>
+                                    </div> <!-- single footer info -->
+                                </li>
+                                <li>
+                                    <div class="single-footer-info mt-20">
+                                        <span>Email :</span>
+                                        <div class="footer-info-content">
+                                            <p>kalapistore@gmail.com</p>
+                                            <p></p>
+                                        </div>
+                                    </div> <!-- single footer info -->
+                                </li>
+                                <li>
+                                    <div class="single-footer-info mt-20">
+                                        <span>Address :</span>
+                                        <div class="footer-info-content">
+                                            <p>18/36 Shivaji Road,Near Padma Talkies,Shivaji Putla,Kolhapur, Maharashtra 416002</p>
+                                        </div>
+                                    </div> <!-- single footer info -->
+                                </li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- footer widget -->
+            <div class="footer-copyright pt-15 pb-15">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright text-center">
+                            <p> <a href="https://uideck.com" rel="nofollow"></a></p>
+                        </div> <!-- copyright -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!--  footer copyright -->
+        </div> <!-- container -->
+    </section>
+    
+    <!-- FOOTER PART ENDS -->
+    
+    <!-- BACK TO TOP PART START -->
+    
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+    
+    <!-- BACK TO TOP PART ENDS -->
+    
+    
+    <!-- jquery js -->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    
+    <!-- Slick js -->
+    <script src="assets/js/slick.min.js"></script>
+    
+    <!-- Magnific Popup js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    
+    <!-- nav js -->
+    <script src="assets/js/jquery.nav.js"></script>
+    
+    <!-- Nice Number js -->
+    <script src="assets/js/jquery.nice-number.min.js"></script>
+    
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+
 </body>
-</html>
 
-<script>
-  function password()
-  {
-    var x= document.getElementById("pwd");
-    if(x.type=="password")
-    {
-      x.type = "text";
-    }
-    else
-    {
-      x.type="passwod";
-    }
-  }
-  
-</script>
+</html>
